@@ -7,7 +7,7 @@
 
 body {
     color: #ededed;
-    background-color: #081b29 ;
+    background-color: #081b29;
 
 }
 
@@ -165,14 +165,14 @@ body {
         0 0 100px cyan, 0 0 200px cyan;
 }
 
-.about{
+.about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
 }
 
-.about-img img{
+.about-img img {
     padding-bottom: 20%;
     max-width: 630px;
     height: auto;
@@ -180,15 +180,15 @@ body {
     border-radius: 8px;
 }
 
-.about-text h2{
+.about-text h2 {
     font-size: 60px;
 }
 
-.about-text h2 span{
+.about-text h2 span {
     color: #0ef;
 }
 
-.about-text h4{
+.about-text h4 {
     font-size: 29px;
     font-weight: 600;
     color: azure;
@@ -196,42 +196,44 @@ body {
     margin: 15px 0 30px;
 }
 
-.about-text p{
+.about-text p {
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
 
-#services{
+#services {
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
-.container{
+
+.container {
     padding: 90px;
 
 }
 
-.sub-title{
+.sub-title {
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
 }
-.sub-title span{
+
+.sub-title span {
     color: #0ef;
 }
 
 
-.services-list{
+.services-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(259px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.services-list div{
+.services-list div {
     background-color: transparent;
     padding: 40px;
     font-size: 13px;
@@ -240,30 +242,38 @@ body {
     border-radius: 20px;
     transition: background 0.5s, transform 0.5;
     box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7
-
 }
 
 .services-list div i {
-    font-size: 50px;
+    font-size: 26px;
     margin-bottom: 30px;
 }
+
 .services-list div h2 {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 15px;
+    color: #0ef;
 }
 
-.services-list div a{
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
+.services-list div p{
+    font-weight: 600;
+    margin: 20px;
+    
+}
+
+.services-list div p span{
+    
+    margin: -1rem;
+    font-size: 22px;
+    
+
 }
 
 
-
-
+.services-list div:hover{
+    transform: translateY(-10px);
+}
 
 
 
