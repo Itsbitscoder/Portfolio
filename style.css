@@ -5,6 +5,12 @@
     font-family: 'poppins', sans-serif;
 }
 
+
+
+
+
+
+
 body {
     color: #ededed;
     background-color: #081b29;
@@ -46,6 +52,7 @@ body {
     opacity: 0;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s*var(--i));
+    max-width: 80vw;
 }
 
 .navbar a:hover {
@@ -234,12 +241,13 @@ body {
 }
 
 .services-list div {
+    margin-right: 100px;
     background-color: transparent;
-    padding: 40px;
+    padding: 30px;
     font-size: 13px;
     font-weight: 13px;
     border-right: 10px;
-    border-radius: 20px;
+    border-radius: 35px;
     transition: background 0.5s, transform 0.5;
     box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7
 }
