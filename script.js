@@ -1,7 +1,7 @@
 var typed = new Typed(".text", {
-    strings: ["Full Stack Devloper", "YouTuber"],
-    typeSpeed: 150,
+    strings: ["Web Devloper", "Front-end Devloper", "Back-end Devloper", "Full Stack Devloper"],
+    typeSpeed: 100,
     backspeed: 100,
-    backDelay: 1500,
+    backDelay: 2000,
     loop: true
 });
