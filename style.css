@@ -241,7 +241,7 @@ body {
 }
 
 .services-list div {
-    margin-right: 100px;
+    margin-right: 1vw;
     background-color: transparent;
     padding: 30px;
     font-size: 13px;
@@ -264,22 +264,22 @@ body {
     color: #0ef;
 }
 
-.services-list div p{
+.services-list div p {
     font-weight: 600;
     margin: 20px;
-    
+
 }
 
-.services-list div p span{
-    
+.services-list div p span {
+
     margin: -1rem;
     font-size: 22px;
-    
+
 
 }
 
 
-.services-list div:hover{
+.services-list div:hover {
     transform: translateY(-10px);
 }
 
